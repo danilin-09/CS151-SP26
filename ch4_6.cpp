@@ -10,7 +10,7 @@ int main(){
     cout << "Prease enter 2 numbers" << endl;
     cin >> x >> y;
 
-    msx = (x > y)?
+    max = (x > y) ? x : y;
 
     cout << "The max value of the 2 is " << max << endl;
 
