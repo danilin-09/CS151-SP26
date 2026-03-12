@@ -11,13 +11,13 @@ int main(){
     cin.get(choice);
 
     switch(choice){
-        case 'A':
+        case 'a':
             cout << "you entered a\n";
             break;
-        case 'B':
+        case 'b':
             cout << "you entered b\n";
             break;
-        case 'C':
+        case 'c':
             cout << "you entered c\n";
             break;
         default:
