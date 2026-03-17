@@ -13,10 +13,11 @@ int main(){
     cout << "Please enter the amount of USD you would like to convert: \n";
     cin >> dollars;  //input in dollars and cents
 
-    double yenTotal = dollars * yenPerDollar;
+    double yenTotal = dollars * yenPerDollar;   //converting dollars to yen and euros
     double eurosTotal = dollars * euroPerDollar;
 
-    cout << "$" << dollars << " is equivalent to " << setprecision(4) << eurosTotal << "euros or " << yenTotal << " yen. \n";
+    //display converted value to user with 2 decimal places
+    cout << "$" << dollars << " is equivalent to " << setprecision(2) << fixed << eurosTotal << " euros or " << setprecision(2) << fixed << yenTotal << " yen. \n";  
 
     return 0;
 }
