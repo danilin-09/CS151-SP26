@@ -13,10 +13,20 @@ int main(){
 
     int result = (3 * 5) % 4 + 24 / (15 - (7 - 4));
     cout << result << endl;
-*/
+
 
     int dozen(12);
     cout << dozen << endl;
+*/
+
+    int x = 2;
+
+    int y = ++x;
+
+    cout << x << endl;
+
+    cout << y << endl;
 
     return 0;
 }
+
