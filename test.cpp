@@ -1,10 +1,11 @@
+/*
 #include <iostream>
 #include <string>
 
 using namespace std;
 
 int main(){
-/*
+
     int speed = 20;
     int time = 10;
     int distance = speed*time;
@@ -18,7 +19,7 @@ int main(){
     int dozen(12);
     cout << dozen << endl;
 */
-
+/*
     int x = 2;
 
     int y = ++x;
@@ -30,3 +31,23 @@ int main(){
     return 0;
 }
 
+
+#include <iostream>
+using namespace std;
+
+void mystery() {
+    int x = 50;
+    x = x + 5;
+    cout << x << endl;
+}
+
+int main() {
+    int x = 15;
+
+    mystery();
+
+    cout << x << endl;
+
+    return 0;
+}
+*/
