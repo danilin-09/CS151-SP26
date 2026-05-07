@@ -10,42 +10,39 @@ int main(){
     cout << "Please enter your first primary color\n";
     cin >> color1;
     cout << "Please enter your second primary color\n";
-    in >> color2;
+    cin >> color2;
 
-    if((color1 != string) || (color2 != string)){  //make code check if input is string
-        cout << "Your input is not a color, please try again" << endl;
-    }
     if(color1 == "red"){
         if(color2 == "blue"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes " << endl;
+            cout << "Mixing " << color1 << " and " << color2 << " makes purple." << endl;
         }
         if(color2 == "yellow"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes orange." << endl;
         }
         if(color2 == "red"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes red." << endl;
         }
     }
     if(color1 == "yellow"){
         if(color2 == "blue"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes green." << endl;
         }
         if(color2 == "yellow"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes yellow." << endl;
         }
         if(color2 == "red"){
-           cout << "Mixing " << color1 << " and " << color2 << " makes " 
+           cout << "Mixing " << color1 << " and " << color2 << " makes orange." << endl;
         }
     }
     if(color1 == "blue"){
         if(color2 == "blue"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes blue." << endl;
         }
         if(color2 == "yellow"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes green." << endl;
         }
         if(color2 == "red"){
-            cout << "Mixing " << color1 << " and " << color2 << " makes "
+            cout << "Mixing " << color1 << " and " << color2 << " makes purple." << endl;
         }
     }
     return 0;
